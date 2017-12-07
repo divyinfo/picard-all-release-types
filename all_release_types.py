@@ -5,8 +5,7 @@ PLUGIN_AUTHOR = "divyinfo"
 PLUGIN_DESCRIPTION = u'''<p>Prep all release type related tags. Info mainly extracted from <code>title</code> tag.</p>
 <p>Put (live), (live版) or (现场版) and similar things into <code>releasetype</code> tag, if <code>releasetype</code> was not previously set.</p>
 <p>This plugin will accept Chinese versions of the wordings.</p>
-<p>If <code>releasetype</code> was set but not <code>secondaryreleasetype</code>, <code>secondaryreleasetype</code> will be used to set 'live'.
-<code>releasetype</code> tag then will become a list.</p>
+<p>If <code>releasetype</code> was set but not <code>secondaryreleasetype</code>, <code>secondaryreleasetype</code> will be used to set 'live'. <code>releasetype</code> tag then will become a list.</p>
 <p>Stuff like (live清晰版), (男声完美版), (电影「魔兽世界」主题曲) will be also considered to be a part of the <code>releasetype</code> and appended.</p>'''
 PLUGIN_VERSION = "0.1"
 PLUGIN_API_VERSIONS = ["1.0"]
